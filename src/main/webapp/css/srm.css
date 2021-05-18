@@ -1,0 +1,152 @@
+body {
+    margin: auto;
+    width: 70%;
+    border: 2px solid #73AD21;
+    padding: 4px;
+    margin-bottom: 1mm;
+    height: 675px;
+  }
+
+  #appName{
+      font-family:monospace;
+      font-size: 5mm;
+      text-decoration: none;
+      padding-top: 5mm;
+    }
+      
+  .topDetails #appName{
+    text-decoration: none;
+    color:black;
+    }  
+
+    .topDetails a:visited{
+    text-decoration: none;
+    color:black;   
+  }
+  
+  .navAndAbove{
+      background-color: rgb(231, 229, 229);
+  }
+  
+  div.userDetails p{
+    text-align: right;   
+    /* background-color: lightblue;  */
+    /* padding-top: 0mm; */
+    /* padding-bottom: 0mm;   */
+    margin: 0;
+    
+    /* margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px; */
+
+  } 
+  div.userDetails ul{
+  
+    margin: 8px 0;
+  }
+
+  div.userDetails ul #logout{
+    color: tomato;
+    margin-top: 2mm;
+    position: absolute;
+    margin-left: 15mm;
+    /* padding-top: -120mm; */
+  }
+
+  #userNameLabel{
+    font-weight: bold;
+  }
+  #userRole{
+    font-weight: bold;
+  }
+
+  .name li{
+      list-style: none;
+      display:inline-block;
+  }
+  .roleDetail li{
+    list-style: none;
+    display:inline-block;
+ }
+  div.topDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 8mm;
+  } 
+
+  .tabs { 
+      list-style: none; 
+    }
+  .tabs li { 
+      display: inline; 
+    }
+  .tabs li a { 
+      color: black; 
+      float:left; 
+      display: block; 
+      padding: 4px 10px; 
+      margin-left: 2px; 
+      position: relative; 
+      left: 1px; 
+      background: rgb(223, 172, 172); 
+      text-decoration: none;
+      text-align: center;
+      width: 30mm;
+    }
+  .tabs li a:hover { 
+      background: #ccc; 
+    }
+
+    li.active > a{
+        background:salmon;
+    }
+
+  div.nav {
+    display: flex;
+    justify-content: space-between;
+  } 
+  .search{
+    margin-top: 5mm;
+    margin-right: 10mm;
+  }
+  .navbar{
+    background-color: aquamarine;
+  }
+
+
+
+
+  /*
+  Slideshow
+  */
+  [data-component="slideshow"] .slide {
+    display: none;
+  }
+
+  [data-component="slideshow"] .slide.active {
+    display: block;
+    
+  }
+
+  #slideshow{
+      margin-bottom: 0mm;
+  }
+   /*
+  Footer
+  */
+  /* .footer {
+    background-color:rgb(238, 219, 168);
+    color:black;
+    text-align: center;
+    margin-top: -1mm;
+    margin-bottom: 0mm;
+    padding-top: 5mm;
+    padding-bottom: 3mm;
+ }
+ .footer p {
+    margin: 0mm;
+ } */
+ 

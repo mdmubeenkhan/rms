@@ -1,0 +1,33 @@
+.writeContent{
+    padding-bottom: 55mm;
+}
+
+.buttons{
+   
+   padding-bottom: 4mm;
+   margin-top: -12mm;
+   text-align: right;
+   margin-right: 1mm;
+
+}
+.dataentry{
+    position: absolute;
+    bottom: 120mm;
+    margin-left: 300mm;
+    color: black;
+}
+/* 
+.response #success{ 
+    margin-right: 5mm;
+    color:blue;
+    background-color: seashell;
+    font-weight: bolder;
+}
+.response #failure{ 
+    margin-right: 5mm;
+    color:red;
+    font-weight: bolder;
+}
+.response{
+    display: inline-block;
+} */

@@ -1,0 +1,21 @@
+.dataentry{
+    text-align: center;
+    /* color: red; */
+    color: black;
+}
+
+/* .editandmessage{
+    position: absolute;
+    bottom: 80mm;
+}
+.dataentry{
+    
+    margin-left: 150mm;
+} */
+.buttons{
+    /* position: absolute; */
+    position: absolute;
+    bottom: 80mm;
+    display: inline-block;
+    margin-left: 306mm;
+}

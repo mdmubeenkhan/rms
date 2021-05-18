@@ -1,0 +1,35 @@
+
+#appName{
+    padding-top: 5mm;
+}
+
+#dataTable {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:small;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+
+#dataTable th {
+border: 1px solid rgb(2, 2, 2);
+padding: 3px;
+}
+
+#dataTable tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+#dataTable tr:hover {
+    background-color: #ddd;
+}
+
+#dataTable th {
+padding-top: 3px;
+padding-bottom: 3px;
+text-align: left;
+background-color: rgb(231, 229, 229);
+color: black;
+}
+

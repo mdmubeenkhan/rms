@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/srm.css">  
+    <link rel="stylesheet" href="css/write.css"> 
+    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/view.css"> 
+    <script src="js/dashboard.js"></script>
+    <script src="js/view.js"></script>
+    
+    <title>View</title>
+</head>
+<body onload="loadview()">
+    <!-----Navigation Bar------->
+    <div class="navAndAbove">
+        <div class="topDetails">
+            <!-----<p id="appName" name="appName">Requirement Management System</p>----->
+            <a id="appName" name="appName" href="./dashboard.html">Requirement Management System</a>
+    
+            <div class="userDetails">
+                <ul class="name">
+                    <li><p id="userNameLabel" name="userNameLabel">User Name :</p></li>
+                    <li><p id="userName" name="userName"></p></li>
+                </ul>
+                <ul class="roleDetail">
+                    <li><p id="userRole" name="userRole">User Role :</p></li>
+                    <li><p id="role" name="role"></p></li>
+                </ul>
+                <ul><a id="logout" name="logout" href="./login.html">Logout</a></ul>
+            </div>
+        </div>
+    
+        <div class="navbar">
+            <div class="nav">
+                <ul class="tabs group">
+                    <li><a href="./write.html" id="write"> Write </a></li>
+                    <li><a href="./review.html" id="review">Review</a></li>
+                    <li><a href="./display.html" id="display">Display</a></li>
+                    <li><a href="./change.html" id="change">Change</a></li>
+                    <!-- <li><a>History</a></li> -->
+                    <li class="active"><a>View</a></li>          
+                </ul>
+                <div class="search">
+                    <input id="search" type="text" readOnly="true" placeholder="Search requirement..">
+                    <button type="submit">Search</button>
+                </div>            
+            </div>
+        </div>
+    </div>
+     
+    <!-----Main content------->
+    <p style="text-align:center" id="dataentry"></p>
+    <div class="writeContent">
+        <p class="writereq">Write New requirement</p>
+        <div class="summary">
+            <label for="summary">Summary:</label>
+            <input type="text" id="summary" name="summary"/>    
+        </div>    
+        
+        <div class="requirementDetails">
+            <div class="details">                
+                <p class="detailText">Details</p> 
+                <label for="name" >Name:</label>
+                <input type="text" id="name" name="name"/>
+                <br>
+                <label for="project">Project:</label>
+                <input type="text" id="project" name="project"/>
+                <br>
+                <label for="type">ReqType:</label>
+                <select id="type">
+                    <option selected>-- Select --</option>
+                    <option value="functional">Functional</option>
+                    <option value="non-functional">Non-Functional</option>
+                    <option value="domain">Domain</option>
+                    <option value="interface">Interface</option>
+                </select>
+                <br>
+                <label for="severity">Severity:</label>
+                <select id="severity">
+                    <option selected>-- Select --</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>	
+                <br>				
+                <label for="priority">Priority:</label>	
+                <select id="priority">
+                    <option selected>-- Select --</option>
+                    <option value="low">Low</option>
+                    <option value="medium">Medium</option>
+                    <option value="high">High</option>
+                </select>
+            </div>
+            <di class="description">
+                <textarea id="description" name="description" rows="11" cols="95" placeholder="Description"></textarea>
+            </div>
+        </div>
+        <!-- <div class="buttons">
+            <button type="button">Save</button>
+            <button type="button">Submit</button>
+            <button type="button">Clear</button>
+        </div> -->
+    </div>
+    
+    <!-----Footer------->
+    <div class="footer">
+        <p>Requirement Management System</p>
+        <p>Create, manage requirements efficiently and easily.</p>
+    </div>
+</body>
+</html>

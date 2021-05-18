@@ -1,0 +1,12 @@
+.editandmessage{
+    position: absolute;
+    bottom: 80mm;
+}
+.dataentry{
+    text-align: center;
+    color: black;
+}
+.buttons{
+    /* position: absolute; */
+    margin-left: 345mm;
+}

@@ -1,0 +1,45 @@
+body {
+    height: 675px;
+    
+  }
+.allElements{
+    padding-top: 3mm;
+   
+    /*background: rgb(0, 0, 66); */
+    background: rgb(28, 205, 198);
+    color: black;
+}
+  /* .footer {
+    
+    margin-top:110px;
+ } */
+
+ .credentials{
+    margin-top: 350px;
+    line-height: 8mm;
+    margin-left: 100mm;
+    padding-bottom: 30mm;
+ }
+ #username{
+     width: 50mm;
+     margin-left: 6mm;
+ }
+ #password{
+    width: 50mm;
+    margin-left: 9mm;
+}
+
+.loginAndRegister{
+    margin-top: 3mm;
+    margin-left: 23mm;
+}
+.topRight{
+    margin-left: 945px;
+    line-height: 1mm;
+}
+#dbnomatch{
+    position: absolute;
+    bottom: 86mm;
+    margin-left: 124mm;
+    color: red;
+}

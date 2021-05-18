@@ -1,0 +1,8 @@
+.footer {    
+    position: absolute;
+    bottom: 56mm;
+    width: 70%;
+    background-color:rgb(238, 219, 168);
+    color:black;
+    text-align: center;
+ }
