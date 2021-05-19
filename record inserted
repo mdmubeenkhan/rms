@@ -1,0 +1,73 @@
+
+
+change tab - edit button
+
+login - unsuccessful - red color
+
+view tab - remove save submit and clear buttons
+revie tab, arrange table and button
+
+
+
+login - unsuccessful - red color
+change tab -- No records available text --change color
+
+
+
+edit tab-- Data is updated message display below
+
+xmlhttp.send("name="+name+"&cno="+cno+"&address="+address+"&city="+city+"&state=" + state + "&country="+country);
+
+
+
+{"uname":"myname"
+String to HashMap: {"uname"="myname", "email"="mymail", "phone"="887766"}
+
+
+
+create table users(
+   id INT NOT NULL AUTO_INCREMENT,
+   username VARCHAR(20) NOT NULL,
+   password VARCHAR(20) NOT NULL,
+   usertype VARCHAR(20) NOT NULL,
+   PRIMARY KEY ( id )
+);
+
+query = INSERT INTO users(username, password, usertype) VALUES("admin","admin","admin");
+INSERT INTO users(username, password, usertype) VALUES("user","user","user");
+Record inserted
+
+create table requirements(
+   ID INT NOT NULL,
+   VERSION INT NOT NULL,
+   SUMMARY VARCHAR(100) NOT NULL,
+   NAME VARCHAR(20) NOT NULL,
+   PROJECT VARCHAR(20) NOT NULL,
+   TYPE enum('Functional', 'Non-Functional', 'Domain', 'Interface') NOT NULL,
+   SEVERITY enum('Low', 'Medium', 'High') NOT NULL,
+   PRIORITY enum('Low', 'Medium', 'High') NOT NULL,
+   DESCRIPTION VARCHAR(1000) NOT NULL,
+   CREATED_BY VARCHAR(20) NOT NULL,
+   CREATED_AT datetime NOT NULL,
+   STATUS char(1)
+);
+
+create table save(   
+   USERNAME VARCHAR(20) NOT NULL,
+   SUMMARY VARCHAR(100) NOT NULL,
+   NAME VARCHAR(20) NOT NULL,
+   PROJECT VARCHAR(20) NOT NULL,
+   TYPE enum('Functional', 'Non-Functional', 'Domain', 'Interface') NOT NULL,
+   SEVERITY enum('Low', 'Medium', 'High') NOT NULL,
+   PRIORITY enum('Low', 'Medium', 'High') NOT NULL,
+   DESCRIPTION VARCHAR(1000) NOT NULL   
+);
+
+
+{"uname":"myname"
+String to HashMap: {"uname"="myname", "email"="mymail", "phone"="887766"}
+query = INSERT INTO members(UNAME, EMAIL, PHONE) VALUES(null,null,null)
+
+
+echo  -e 'mubeen\tALL=(ALL)\tNOPASSWD:\tALL' > /etc/sudoers.d/provision
+	            
